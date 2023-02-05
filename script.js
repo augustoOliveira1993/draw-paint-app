@@ -24,6 +24,7 @@ const setCanvasBackground = () => {
 }
 
 window.addEventListener('load', () => {
+    console.log(selectedColor)
     canvas.width = canvas.offsetWidth;
     canvas.height = canvas.offsetHeight;
 
@@ -89,6 +90,9 @@ const drawing = (e) => {
     }
     if(selectedTool === 'triangle'){
         drawTriangle(e)
+    }
+    if(selectedTool === 'line'){
+        drawLine(e)
     }
 
 }
