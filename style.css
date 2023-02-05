@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 
 :root {
-    --primary-color: #eca389;
+    --primary-color: #e5805e;
     --gray-color: #5A6168;
     --gray-color-light: #6C757D;
     --white-color: #fff;
@@ -67,7 +67,7 @@ section {
 }
 
 .option:is(:hover, .active) :where(span, label) {
-    color: var(--primary-color);
+    color: #1a73e8;
 }
 .option #fill-color {
     cursor: pointer;
